@@ -1,0 +1,23 @@
+# map.js
+
+var red_marker_icon = new L.Icon(
+  {
+    iconUrl: iconURL,
+    shadowUrl: shadowUrl,
+    iconSize: iconSize,
+    iconAnchor: iconAnchor,
+    popupAnchor: popupAnchor,
+    shadowSize: shadowSize 
+  }
+)
+
+var blue_marker_icon = new L.Icon(
+  {
+    iconUrl: iconURL,
+    shadowUrl: shadowUrl,
+    iconSize: iconSize,
+    iconAnchor: iconAnchor,
+    popupAnchor: popupAnchor,
+    shadowSize: shadowSize 
+  }
+)

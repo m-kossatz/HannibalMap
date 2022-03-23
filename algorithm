@@ -1,0 +1,11 @@
+
+timestamp A + B = DATA.stations (last, next)
+timestamp now = now marker position on tl
+=> temporal progress [0 .. 1]
+
+coordinates position A + B = DATA.stations (last, next)
+spatial progress [0 .. 1] = temporal progress
+=> coordinates now position
+=> set elephant on map
+
+Goal: Elephant should move from one station to the next station, relative to the temporal progress from one event to the next one.

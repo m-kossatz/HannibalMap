@@ -1,0 +1,66 @@
+body
+{
+  font-family: Lato, Arial;
+  font-size: 12pt;
+  background-color: rgb(255, 255, 220);
+}
+
+h1
+{
+  text-align: center;
+  font-weight: bold;
+  color: rgb(56, 56, 0);
+  font-size: 2.0em;
+}
+
+
+/** WRAPPER **/
+/* -> This is where all the content of the website will be in */
+
+#wrapper
+{
+  /* center wrapper */
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 960px;
+
+  /* Space inside wrapper */
+  padding: 10px;
+
+  /* style */
+  background-color: rgb(255, 255, 245);
+  border: 1px solid gray;
+}
+
+/** SPECIAL CONTENT **/
+
+#hannibal-map
+{
+  width: 100%;
+  height: 450px;
+  background-color:rgba(255,0,0,0.0);
+}
+
+#turn-red
+{
+  background-color: red;
+  color: white;
+  font-size: 1.2em;
+  padding: 0.5em;
+}
+
+#turn-blue
+{
+  background-color: blue;
+  color: white;
+  font-size: 1.2em;
+  padding: 0.5em;
+}
+
+#turn-stick
+{
+  background-color: brown;
+  color: white;
+  font-size: 1.2em;
+  padding: 0.5em;
+}

@@ -1,0 +1,47 @@
+<html>
+
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" /> 
+    <title>Die HannibalMap von: Benno Bergmann, Johanna Emily Hallfahrt, Verena Bär, Max Bachmann, Jonas Hebenstreit</title>
+    <link rel="stylesheet" href="scripts/leaflet/leaflet.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/timeline.css"/>
+  </head>
+  
+  <body>
+    <div id="wrapper">
+
+      <h1>Der Zweite Punische Krieg</h1>
+      <h2>Hannibals Zug über die Alpen</h2>
+      <p>Im Jahre 218 v. Chr. überquerte der karthagische Feldherr Hannibal auf dem Weg zum Zweiten Punischen Krieg gegen Rom die Alpen mit 37 Elefanten.</p>
+      
+      <div id="hannibal-map"></div>
+
+      <div id="timeline">
+        <div id="horizontal-line"></div>
+        <div id="now-marker"></div>
+        
+      </div>
+
+      <p>Test:           <span id="test">X</span></p>
+      <p>Aktuelle Pos:   <span id="curr-pos">0</span></p>
+      <p>Aktuelles Jahr: <span id="curr-year">0</span></p>
+<!--
+      <h2>Aktionen</h2>
+      <button type="button" id="turn-red">Alles rot!</button>
+      <button type="button" id="turn-blue">Alles blau!</button>
+      <button type="button" id="turn-stick">Wieder normal!</button>
+-->
+
+    </div>
+  </body>
+
+  <!-- third party schripts -->
+  <script src="scripts/leaflet/leaflet.js"></script>
+  <!-- main program -->
+  <script src="scripts/data.js"></script>
+  <script src="scripts/main.js"></script>
+  <script src="scripts/map.js"></script>
+  <script src="scripts/timeline.js"></script>
+  <script src="scripts/elephantOnMap.js"></script>
+</html>
